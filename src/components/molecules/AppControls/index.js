@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import './style.css';
 
+
 import Button from '../../atoms/Button';
 import Switch from '../../atoms/Switch';
 import Menu from '../../molecules/Menu';
@@ -17,7 +18,7 @@ const AppControls = ({
 }) => {
   return (
     <Fragment>
-      <Menu
+      <Menu 
         placeholder="Sort Algorithm"
         items={[
           'Bubble Sort',
